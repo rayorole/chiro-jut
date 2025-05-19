@@ -41,7 +41,7 @@ function resolveHref(documentType?: string, slug?: string): string | undefined {
 
 // Main Sanity configuration
 export default defineConfig({
-  basePath: '/studio',
+  basePath: '/admin',
   name: 'default',
   title: 'Ignite for Sanity',
   projectId: clientEnv.NEXT_PUBLIC_SANITY_PROJECT_ID,

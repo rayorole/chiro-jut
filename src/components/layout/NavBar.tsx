@@ -76,10 +76,7 @@ export default function NavBar({
 
         <div className="flex space-x-2">
           <Button asChild variant="default">
-            <Link href={'/'}>Get Started</Link>
-          </Button>
-          <Button asChild variant="outline">
-            <Link href={'/'}>Log In</Link>
+            <Link href={'/admin'}>Administrator</Link>
           </Button>
         </div>
       </div>
@@ -152,10 +149,7 @@ export default function NavBar({
           ))}
           <div className="flex flex-col space-y-2 mt-4 p-4">
             <Button asChild variant="default">
-              <Link href={'/'}>Get Started</Link>
-            </Button>
-            <Button asChild variant="outline">
-              <Link href={'/'}>Log In</Link>
+              <Link href={'/admin'}>Administrator</Link>
             </Button>
           </div>
         </div>

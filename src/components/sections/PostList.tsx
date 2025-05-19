@@ -17,7 +17,7 @@ export default function PostListSection({ section }: { section: PostListSection 
       <div className="container mx-auto">
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">{section?.heading}</h2>
-          <p className="text-gray-600">Latest updates and insights from our team</p>
+          <p className="text-gray-600">Nieuws en updates</p>
         </div>
         <div className="max-w-4xl mx-auto space-y-12">
           {posts.slice(0, numberOfPosts).map((post) => (

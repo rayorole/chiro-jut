@@ -24,7 +24,7 @@ export default async function Footer() {
             <p className="text-sm">{settings.description}</p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-gray-900 transition-colors">
@@ -49,7 +49,7 @@ export default async function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+            <h3 className="text-lg font-semibold mb-4">Volg ons</h3>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-gray-900 transition-colors">
                 <svg
@@ -84,8 +84,10 @@ export default async function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
-            <p className="text-sm mb-4">Stay updated with our latest news and offers.</p>
+            <h3 className="text-lg font-semibold mb-4">Nieuwsbrief</h3>
+            <p className="text-sm mb-4">
+              Blijf op de hoogte van onze laatste nieuws en aanbiedingen.
+            </p>
             <form className="flex">
               <input
                 type="email"
@@ -100,11 +102,7 @@ export default async function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-200 text-sm text-center">
           <p>
-            &copy; {new Date().getFullYear()} {settings.title} by{' '}
-            <a href="https://10up.com" className="underline hover:text-gray-900 transition-colors">
-              10up
-            </a>
-            . All rights reserved.
+            &copy; {new Date().getFullYear()} {settings.title}. Alle rechten voorbehouden.
           </p>
         </div>
       </div>
