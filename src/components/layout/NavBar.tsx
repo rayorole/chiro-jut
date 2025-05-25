@@ -76,7 +76,7 @@ export default function NavBar({
 
         <div className="flex space-x-2">
           <Button asChild variant="default">
-            <Link href={'/admin'}>Administrator</Link>
+            <Link href={'/studio'}>Administrator</Link>
           </Button>
         </div>
       </div>
@@ -149,7 +149,7 @@ export default function NavBar({
           ))}
           <div className="flex flex-col space-y-2 mt-4 p-4">
             <Button asChild variant="default">
-              <Link href={'/admin'}>Administrator</Link>
+              <Link href={'/studio'}>Administrator</Link>
             </Button>
           </div>
         </div>

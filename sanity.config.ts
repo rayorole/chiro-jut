@@ -41,9 +41,9 @@ function resolveHref(documentType?: string, slug?: string): string | undefined {
 
 // Main Sanity configuration
 export default defineConfig({
-  basePath: '/admin',
+  basePath: '/studio',
   name: 'default',
-  title: 'Ignite for Sanity',
+  title: 'Chiro Jut',
   projectId: clientEnv.NEXT_PUBLIC_SANITY_PROJECT_ID,
   dataset: clientEnv.NEXT_PUBLIC_SANITY_DATASET,
   plugins: [
